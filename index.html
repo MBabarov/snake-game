@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Snake game</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./js/index.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <h1>Snake game</h1>
+    <canvas id="canvas" style="overflow: hidden"></canvas>
+    <div class="counter">
+        <p>Score: <strong id="score">0</strong></p>
+        <p>Record: <strong id="record"></strong></p>
+    </div>
+    <div class="buttons">
+        <button id="startPauseButton">Start</button>
+        <div>
+            <input type="checkbox" name="checkbox" id="checkbox_walls">
+            <label for="checkbox_walls">With walls</label>
+        </div>
+    </div>
+</div>
+</body>
+</html>

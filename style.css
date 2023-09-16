@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.wrapper {
+  opacity: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+#canvas {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.55);
+  border:  3px solid lightsalmon;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
